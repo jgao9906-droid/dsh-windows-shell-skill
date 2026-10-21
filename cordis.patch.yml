@@ -1,0 +1,3 @@
+- insert:
+    - id: windows-shell-skill
+      name: dsh-windows-shell-skill

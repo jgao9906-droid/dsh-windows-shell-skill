@@ -1,0 +1,15 @@
+{
+  "name": "dsh-windows-shell-skill",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness skill for correct CMD, Windows PowerShell 5.1 and PowerShell 7 syntax.",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js", "./package.json": "./package.json" },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/jgao9906-droid/dsh-windows-shell-skill.git" },
+  "keywords": ["dsh-plugin", "deepseek-harness", "skill", "windows", "powershell", "cmd"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "files": ["index.js", "shell-rules.md", "cordis.patch.yml", "skills", "README.md", "VALIDATION.md", "LICENSE"],
+  "scripts": { "test": "node --test" }
+}
